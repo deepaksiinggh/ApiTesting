@@ -1,9 +1,10 @@
 {
   "name": "apitesting",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "json-server --watch db.json --port 3000",
-    "start": "json-server --watch db.json --port $PORT --host 0.0.0.0"
+    "dev": "node api/server.js",
+    "start": "node api/server.js"
   },
   "dependencies": {
     "json-server": "^0.17.4"
